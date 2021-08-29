@@ -21,8 +21,8 @@ Here, address of the value is passed to the function, so the actual arguments as
 
 Hence, value that is changed inside the function is reflected inside as well as outside the function.
 
-| Call by Value                                                         | CallbyReference                                                          |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Call by Value                                                         | Call by Reference                                                        |
+| :-------------------------------------------------------------------: | :----------------------------------------------------------------------: |
 | A copy of value is passed to the function                             | An address of the value is passed to the function                        |
 | Changes made inside the function is not reflected on other function   | Changes made inside the function are reflected outside the function also |
 | Actual and formal arguments are created in different memory locations | Actual and formal arguments are created in the same memory location      |
